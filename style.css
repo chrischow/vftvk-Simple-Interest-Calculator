@@ -6,14 +6,45 @@ body {
 
 h1{
     color: grey;
-    font-family: verdana
+    font-family: verdana;
+    text-align: center;
 }
 
 .maindiv{
     background-color: white;
     color: black;
-    width: 300px;
+    width: 480px;
     padding: 20px;
     border-radius: 25px;
-    align: center;
+    margin: auto;
+}
+
+.innerdiv {
+  margin: auto;
+  width: 360px;
+}
+
+fieldset {
+  border: 0px;
+}
+
+input, select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block; 
+    vertical-align: middle;
+    margin-left: 20px
+}
+
+label {
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+    width: 110px;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
